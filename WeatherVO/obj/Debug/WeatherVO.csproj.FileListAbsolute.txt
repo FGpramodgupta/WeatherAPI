@@ -1,0 +1,6 @@
+G:\work\Prudential\WebAPi\WeatherService\WeatherVO\bin\Debug\WeatherVO.dll
+G:\work\Prudential\WebAPi\WeatherService\WeatherVO\bin\Debug\WeatherVO.pdb
+G:\work\Prudential\WebAPi\WeatherService\WeatherVO\obj\Debug\WeatherVO.csprojAssemblyReference.cache
+G:\work\Prudential\WebAPi\WeatherService\WeatherVO\obj\Debug\WeatherVO.csproj.CoreCompileInputs.cache
+G:\work\Prudential\WebAPi\WeatherService\WeatherVO\obj\Debug\WeatherVO.dll
+G:\work\Prudential\WebAPi\WeatherService\WeatherVO\obj\Debug\WeatherVO.pdb
