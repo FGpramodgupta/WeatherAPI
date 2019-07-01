@@ -43,26 +43,9 @@ This library takes what openweathermap api returns in JSON, and converts it to C
   * Degree - Returns raw 360-oriented degree returned by openweathermap api
   * Gust - Returns speed of wind gusts in meters per second
 ### Added Functionality
-- Additional Main values:  By default the openweathermap API returns just Kelvin temperatures.  I have created properties in the Main class that returns equivalent Celsius and Fahrenheight
-- DirectionEnum - Added direction enum in Wind class that is set in constructor on the basis of degree double
-- directionEnumToString(DirectionEnum dir) - Returns string value of wind direction on the basis of passed in DirectionEnum
+- FetchWeatherByID :  In this method you can get the weathere details by passing city id.
+- FetchAllWeatherByJson - In this method you can get the weathere details by passing list of city as per the format given at     http://bulk.openweathermap.org/sample/city.list.json.gz and in the response you will get weather details of all the inputed citie.
 
-### Example Usage
-- OpenWeatherAPI.OpenWeatherAPI openWeatherAPI = new OpenWeatherAPI.OpenWeatherAPI("my open weather api key");
-- OpenWeatherAPI.Query query = openWeatherAPI.query("city/location query");
-- Console.WriteLine(string.Format("The temperature in {0}, {1} is currently {2} °F", query.Name,query.Sys.Country, query.Main.Temperature.FahrenheitCurrent));
 
-### Credits and Libraries Utilized
-- Costura.Fody / Fody - Takes the projects various DLL files and packages them all in the TwitchLib.dll file, combing and removing potential problems with not having all parts
-- Newtonsoft.Json - JSON parsing class.  Used to parse Twitch API calls.
 
-### License
-The MIT License (MIT)
 
-Copyright (c) 2015 swiftyspiffy
-
-Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
-
-The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
-
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NON INFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
