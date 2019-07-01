@@ -1,0 +1,10 @@
+G:\work\Prudential\WebAPi\WeatherService\WeatherBO\bin\Debug\WeatherBO.dll
+G:\work\Prudential\WebAPi\WeatherService\WeatherBO\bin\Debug\WeatherBO.pdb
+G:\work\Prudential\WebAPi\WeatherService\WeatherBO\bin\Debug\Newtonsoft.Json.dll
+G:\work\Prudential\WebAPi\WeatherService\WeatherBO\bin\Debug\WeatherVO.dll
+G:\work\Prudential\WebAPi\WeatherService\WeatherBO\bin\Debug\WeatherVO.pdb
+G:\work\Prudential\WebAPi\WeatherService\WeatherBO\obj\Debug\WeatherBO.csprojAssemblyReference.cache
+G:\work\Prudential\WebAPi\WeatherService\WeatherBO\obj\Debug\WeatherBO.csproj.CoreCompileInputs.cache
+G:\work\Prudential\WebAPi\WeatherService\WeatherBO\obj\Debug\WeatherBO.csproj.CopyComplete
+G:\work\Prudential\WebAPi\WeatherService\WeatherBO\obj\Debug\WeatherBO.dll
+G:\work\Prudential\WebAPi\WeatherService\WeatherBO\obj\Debug\WeatherBO.pdb
